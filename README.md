@@ -1,4 +1,4 @@
-# 🧇 TestGitPush – Product Cart React App
+# 🧇 Product Cart React App
 
 A simple React shopping cart app built with Vite. Displays food products, allows users to add them to a cart, remove them and shows order confirmation. This project helped me practice working with components, state, and GitHub Pages deployment.
 
@@ -6,7 +6,7 @@ A simple React shopping cart app built with Vite. Displays food products, allows
 
 ![screenshot](./screenshot.png)
 
-➡️ **Live site:** [https://dzik0.github.io/TestGitPush](https://dzik0.github.io/TestGitPush)
+➡️ **Live site:** [https://dzik0.github.io/product-list-with-cart/](https://dzik0.github.io/product-list-with-cart/)
 
 ## 🚀 Technologies Used
 
