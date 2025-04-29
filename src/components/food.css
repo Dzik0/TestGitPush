@@ -1,0 +1,168 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.img-container {
+  height: 11rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.relative-container {
+  position: relative;
+}
+
+.main-btn {
+  position: absolute;
+  bottom: -1.3rem;
+  left: 50%;
+  translate: -50%;
+  /* padding: 0.7rem 1.3rem; */
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid var(--red);
+  border-radius: 2rem;
+  font-weight: var(--font-semi-bold);
+  cursor: pointer;
+}
+
+.cart-pic {
+  width: 1.3rem;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+h3 {
+  color: var(--rose-500);
+  font-weight: var(--font-normal);
+  font-size: 0.8rem;
+}
+
+.description {
+  font-weight: var(--font-semi-bold);
+  font-size: 1rem;
+}
+
+.price {
+  color: var(--red);
+  font-weight: var(--font-bold);
+  font-size: 1rem;
+}
+
+.add-remove-btn {
+  position: absolute;
+  bottom: -1.3rem;
+  left: 50%;
+  translate: -50%;
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid var(--red);
+  border-radius: 2rem;
+  font-weight: var(--font-semi-bold);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btns-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.5rem;
+}
+
+.minus-div {
+  margin-bottom: 2px;
+  font-size: 1.3rem;
+}
+
+.plus-div {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  .main-btn {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 50%;
+    translate: -50%;
+    width: 9rem;
+    height: 3rem;
+    border: 1px solid var(--red);
+    border-radius: 2rem;
+    font-weight: var(--font-semi-bold);
+  }
+
+  .add-remove-btn {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 50%;
+    translate: -50%;
+    width: 9rem;
+    height: 3rem;
+    border: 1px solid var(--red);
+    border-radius: 2rem;
+    font-weight: var(--font-semi-bold);
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-container {
+    height: 11rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-btn {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 50%;
+    translate: -50%;
+    width: 12rem;
+    height: 3rem;
+    border: 1px solid var(--red);
+    border-radius: 2rem;
+    font-weight: var(--font-semi-bold);
+  }
+
+  .add-remove-btn {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 50%;
+    translate: -50%;
+    width: 12rem;
+    height: 3rem;
+    border: 1px solid var(--red);
+    border-radius: 2rem;
+    font-weight: var(--font-semi-bold);
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-container {
+    height: 15rem;
+    border-radius: 0.6rem;
+    overflow: hidden;
+  }
+}
