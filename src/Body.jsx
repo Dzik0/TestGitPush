@@ -3,6 +3,7 @@ import Food from './components/Food.jsx';
 import EmptyCart from './components/EmptyCart.jsx';
 import FullCart from './components/FullCart.jsx';
 import ConfirmOrderBox from './components/ConfirmOrderBox.jsx';
+import data from '../data.json';
 
 function Body() {
   const [products, setProducts] = useState([]);
@@ -11,9 +12,7 @@ function Body() {
   const cartRef = useRef();
 
   useEffect(() => {
-    fetch('../data.json')
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
+    setProducts(data);
   }, []);
 
   console.log(cart);
