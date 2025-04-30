@@ -13,7 +13,7 @@ A simple React shopping cart app built with Vite. Displays food products, allows
 - ⚛️ React
 - ⚡ Vite
 - 🛍️ Local state management
-- 💅 CSS (custom or framework if used)
+- 💅 CSS
 
 ## 📁 Features
 
