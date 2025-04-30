@@ -25,8 +25,8 @@ A simple React shopping cart app built with Vite. Displays food products, allows
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/Dzik0/TestGitPush.git
-cd TestGitPush
+git clone https://github.com/Dzik0/product-list-with-cart.git
+cd product-list-with-cart
 npm install
 npm run dev
 ```
