@@ -139,6 +139,39 @@ h1 {
   padding-bottom: 2.5rem;
 }
 
+@media (min-width: 820px) {
+  .ordered {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.245);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .ordered-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1.2rem;
+    padding-top: 2rem;
+    border-radius: 2rem;
+  }
+  .ordered-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1.2rem;
+    padding-top: 2rem;
+    border-radius: 2rem;
+  }
+}
+
 .conf-box {
   width: 3rem;
   margin-bottom: 1.4rem;
