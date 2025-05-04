@@ -1,7 +1,7 @@
 import confirm from '../assets/icon-order-confirmed.svg';
 import pic from '../../public/image-baklava-thumbnail.jpg';
 
-function ConfirmOrderBox({ cart, products, startNewOrder }) {
+function ConfirmOrderBox({ cart, products, startNewOrder, confirmRef }) {
   const fullPrice = totalPrice();
 
   //FUNCTIONS
@@ -45,7 +45,7 @@ function ConfirmOrderBox({ cart, products, startNewOrder }) {
   console.log(cartList);
   return (
     <>
-      <div className="ordered-box">
+      <div ref={confirmRef} className="ordered-box">
         <div className="conf-box">
           <img src={confirm} alt="Confirmb logo" />
         </div>
