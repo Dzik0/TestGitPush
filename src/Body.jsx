@@ -10,10 +10,17 @@ function Body() {
   const [cart, setCart] = useState([]);
   const [order, setOrder] = useState(false);
   const cartRef = useRef();
+  const confirmRef = useRef();
 
   useEffect(() => {
     setProducts(data);
   }, []);
+
+  useEffect(() => {
+    if (order) {
+      confirmRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [order]);
 
   console.log(cart);
   //FUNCTIONS
@@ -84,6 +91,7 @@ function Body() {
       {order && (
         <div className="ordered">
           <ConfirmOrderBox
+            confirmRef={confirmRef}
             cart={cart}
             products={products}
             startNewOrder={startNewOrder}
